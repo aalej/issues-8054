@@ -18,8 +18,11 @@ functions:
    - Run `cd functions`
    - Run `npm i`
    - Run `cd ../`
-2. Run `firebase deploy --project <PROJECT_ID>`
+2. Run `firebase deploy --project PROJECT_ID`
    - Successful deployment
+   - Note:
+     - if you don't wanna risk deployment, try using `--dry-run`
+     - Run `firebase deploy --project PROJECT_ID --dry-run`
 
 ```
 $ firebase deploy --project PROJECT_ID
